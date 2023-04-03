@@ -1,2 +1,2 @@
 shell:
-	scrapy shell
+	poetry run scrapy shell
