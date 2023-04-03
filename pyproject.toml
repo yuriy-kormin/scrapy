@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Yuriy Kormin <yuriy.kormin@gmail.com>"]
 readme = "README.md"
-packages = [{include = "scrapy_first"}]
+packages = [{include = "chocolatescraper"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
