@@ -14,7 +14,11 @@ class ChocolatespiderSpider(scrapy.Spider):
     def parse(self, response):
         pass
         # yield {response: response.body}
-        # items =
+        items = response.xpath('@class="feed-grid__item"')
+        for item in items:
+            yield {
+                'price': item.xpath('.//h4[contains(@class,"web_ui__Text__text")]/text()').get()
+            }
         # yield {
         #     headers:
         # }
