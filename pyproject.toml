@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scrapy-first"
+version = "0.1.0"
+description = ""
+authors = ["Yuriy Kormin <yuriy.kormin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "scrapy_first"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.8.0"
+ipython = "^8.12.0"
+scrapy-playwright = "^0.0.26"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
