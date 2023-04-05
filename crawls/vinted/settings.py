@@ -11,12 +11,16 @@ import os
 import django
 import sys
 
-# DJANGO INTEGRATION
+# # DJANGO INTEGRATION
+#
+from dotenv import load_dotenv
 
-sys.path.append(os.path.dirname(os.path.abspath('../web')))
+load_dotenv()
+
+sys.path.append(os.path.dirname(os.path.abspath('../web/scraper/scraper/')))
 os.environ['DJANGO_SETTINGS_MODULE'] = 'scraper.settings'
+os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 django.setup()
-
 
 BOT_NAME = "vinted"
 
