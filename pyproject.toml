@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "scrapy-first"
 version = "0.1.0"
-description = ""
+description = "Django app for scrapy result view and schedule scrapy jobs"
 authors = ["Yuriy Kormin <yuriy.kormin@gmail.com>"]
 readme = "README.md"
-packages = [{include = "chocolatescraper"}]
+packages = [{include = "scraper"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
