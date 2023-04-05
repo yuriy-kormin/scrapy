@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829943f0-b00a-4bcf-ae81-0b2fcf5d70b5" name="Changes" comment="gitignore" />
+    <list default="true" id="829943f0-b00a-4bcf-ae81-0b2fcf5d70b5" name="Changes" comment="crawl">
+      <change afterPath="$PROJECT_DIR$/vinted/vinted/spiders/vint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders/chocolatespider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocolatescraper/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2NihFu7jys3mXzl2YyowIp8GuPh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,7 +39,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowJSON Formatter.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tork/PycharmProjects/scrapy/chocolatescraper/chocolatescraper/spiders&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -34,7 +50,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vinted/vinted/spiders" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -71,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1680152710028</updated>
       <workItem from="1680152716251" duration="628000" />
-      <workItem from="1680271877550" duration="15405000" />
+      <workItem from="1680271877550" duration="37720000" />
+      <workItem from="1680676700199" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="fix poetry path">
       <created>1680518700980</created>
@@ -94,7 +115,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680518770699</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="readme">
+      <created>1680518849970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680518849970</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme">
+      <created>1680518889956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680518889956</updated>
+    </task>
+    <task id="LOCAL-00006" summary="poetry lockfile">
+      <created>1680519059877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519059877</updated>
+    </task>
+    <task id="LOCAL-00007" summary="poetry makefile comm">
+      <created>1680519158707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519158707</updated>
+    </task>
+    <task id="LOCAL-00008" summary="crawl">
+      <created>1680520112253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680520112254</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +159,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix poetry path" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="readme" />
+    <MESSAGE value="poetry lockfile" />
+    <MESSAGE value="poetry makefile comm" />
+    <MESSAGE value="crawl" />
+    <option name="LAST_COMMIT_MESSAGE" value="crawl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

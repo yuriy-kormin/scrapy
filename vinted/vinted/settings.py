@@ -1,4 +1,4 @@
-# Scrapy settings for chocolatescraper project
+# Scrapy settings for vinted project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "chocolatescraper"
+BOT_NAME = "vinted"
 
-SPIDER_MODULES = ["chocolatescraper.spiders"]
-NEWSPIDER_MODULE = "chocolatescraper.spiders"
+SPIDER_MODULES = ["vinted.spiders"]
+NEWSPIDER_MODULE = "vinted.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "chocolatescraper (+http://www.yourdomain.com)"
+#USER_AGENT = "vinted (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,18 +45,15 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "chocolatescraper.middlewares.ChocolatescraperSpiderMiddleware": 543,
+#    "vinted.middlewares.VintedSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "chocolatescraper.middlewares.ChocolatescraperDownloaderMiddleware": 543,
+#    "vinted.middlewares.VintedDownloaderMiddleware": 543,
 #}
-DOWNLOAD_HANDLERS = {
-    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-}
+
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
@@ -66,7 +63,7 @@ DOWNLOAD_HANDLERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "chocolatescraper.pipelines.ChocolatescraperPipeline": 300,
+#    "vinted.pipelines.VintedPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
