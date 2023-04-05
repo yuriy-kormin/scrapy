@@ -10,3 +10,15 @@ class Brand(models.Model):
     items_amount = models.IntegerField(null=False)
     entrances = models.IntegerField(null=True)
     history = HistoricalRecords()
+
+
+class Item(models.Model):
+    vinted_id = models.IntegerField(null=False)
+    currency = models.CharField(max_length=10)
+    user_price = models.FloatField(null=False)
+    service_fee = models.FloatField(null=False)
+    total_price = models.FloatField(null=False)
+    date_created = models.DateTimeField(auto_now_add=True)
+    date_modified = models.DateTimeField(auto_now=True)
+    history = HistoricalRecords()
+
