@@ -14,6 +14,7 @@ class Brand(models.Model):
 
 class Item(models.Model):
     vinted_id = models.IntegerField(null=False, unique=True)
+    brand=models.ForeignKey(to=Brand,on_delete=models.CASCADE),
     currency = models.CharField(max_length=10)
     user_price = models.FloatField(null=False)
     service_fee = models.FloatField(null=False)
