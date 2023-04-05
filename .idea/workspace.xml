@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="829943f0-b00a-4bcf-ae81-0b2fcf5d70b5" name="Changes" comment="crawl">
-      <change afterPath="$PROJECT_DIR$/vinted/vinted/spiders/vint.py" afterDir="false" />
+    <list default="true" id="829943f0-b00a-4bcf-ae81-0b2fcf5d70b5" name="Changes" comment="add crawls app to scrap data">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders/chocolatespider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chocolatescraper/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scraper/scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/scraper/scraper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/scraper/scraper/vinted/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/scraper/scraper/vinted/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +30,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowJSON Formatter.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tork/PycharmProjects/scrapy/chocolatescraper/chocolatescraper/spiders&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowJSON Formatter.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tork/PycharmProjects/scrapy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/chocolatescraper/chocolatescraper/spiders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +88,7 @@
       <updated>1680152710028</updated>
       <workItem from="1680152716251" duration="628000" />
       <workItem from="1680271877550" duration="37720000" />
-      <workItem from="1680676700199" duration="5396000" />
+      <workItem from="1680676700199" duration="6801000" />
     </task>
     <task id="LOCAL-00001" summary="fix poetry path">
       <created>1680518700980</created>
@@ -150,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680520112254</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add django">
+      <created>1680686679703</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680686679703</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add crawls app to scrap data">
+      <created>1680686864440</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680686864440</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +173,9 @@
     <MESSAGE value="poetry lockfile" />
     <MESSAGE value="poetry makefile comm" />
     <MESSAGE value="crawl" />
-    <option name="LAST_COMMIT_MESSAGE" value="crawl" />
+    <MESSAGE value="add django" />
+    <MESSAGE value="add crawls app to scrap data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add crawls app to scrap data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
