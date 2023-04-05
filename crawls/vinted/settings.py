@@ -7,6 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+import os
+import django
+import sys
+
+# DJANGO INTEGRATION
+
+sys.path.append(os.path.dirname(os.path.abspath('../web')))
+os.environ['DJANGO_SETTINGS_MODULE'] = 'scraper.settings'
+django.setup()
+
+
 BOT_NAME = "vinted"
 
 SPIDER_MODULES = ["vinted.spiders"]
